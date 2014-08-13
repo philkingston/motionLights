@@ -12,6 +12,8 @@ AC_PROG_CXX
 
 # Checks for libraries.
 PKG_CHECK_MODULES([OPENCV], [opencv-2.4.9])
+AC_SUBST([OPENCV_CFLAGS])
+AC_SUBST([OPENCV_LIBS])
 
 # Checks for header files.
 
