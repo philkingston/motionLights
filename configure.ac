@@ -11,9 +11,9 @@ AC_CONFIG_SRCDIR([src/lights.cpp])
 AC_PROG_CXX
 
 # Checks for libraries.
-PKG_CHECK_MODULES([OPENCV], [opencv-2.4.9])
-AC_SUBST([OPENCV_CFLAGS])
-AC_SUBST([OPENCV_LIBS])
+PKG_CHECK_MODULES([opencv], [opencv-2.4.9])
+AC_SUBST([opencv_CFLAGS])
+AC_SUBST([opencv_LIBS])
 
 # Checks for header files.
 
